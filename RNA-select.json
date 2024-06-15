@@ -1,0 +1,1026 @@
+[
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "epithelial cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "interstitial cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "supporting cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "germ cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "fibroblasts"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "CD45+immune cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "glial cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "mesodermal cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "ectoderm cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "B cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "dendritic cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "granulosa cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "horizontal cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "bipolar cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "amacrine cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "Muller glia cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "retinal ganglion cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "oligodendrocytes"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "neural plate cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "neural crest cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "anterior lateral plate mesoderm cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "endoderm cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "astrocytes"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "cones"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "Müller glia cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "microglia"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "pericyte cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "amacrine cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "astrocytes"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "bipolar cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "cones"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "horizontal cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "Müller glia cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "microglia"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "rod cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "CD45+ macrophages"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "T cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "CD4 T cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "CD8T cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "natural killer cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "macrophages"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "smooth muscle cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "vascular endothelial cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "M2 macrophages"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "regulatory T cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "ciliated epithelium cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "goblet cells or secretory cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "red blood cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "immune cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "nonciliated epithelium"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "neural plate border cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "theca cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "mural granulosa cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "cumulus granulosa cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "adipocyte cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "immune cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "fibroblasts"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "precursor cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "epithelial cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "endothelial cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "myoepithelial cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "stem cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "goblet progenitor cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "enterocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "transient-amplifying cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "goblet cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "enteroendorcine cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "Paneth cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "tuft cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "CA7+ cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "lymphoid cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "B cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "myeloid lineage leukocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "myocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "myoblasts"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "neurogliocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "neural stem cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "osteogenic cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "chondrocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "mesenchymal cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "natural killer cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "CD4 T cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "CD8 T cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "γδ T cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "plasmablasts"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "plasma cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "lymphocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "spermatogonias"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "spermatocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "immature sperm"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "sertoli cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "leydig cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "myoid cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "macrophages"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "beige adipocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "cardiomyocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "cholangiocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "hepatic stellate cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "hepatocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "podocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "loop of Henle cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "cecal enterocyte"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "Paneth like cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "enteroendocrine cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "spermatid cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "ciliated cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "basal cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "smooth muscle cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "transitamplifying progenitors"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "enterocyte progenitors"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "early enterocyte progenitors"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "late enterocyte progenitors"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "immature enterocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "mature enterocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "pig primordial germ cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "monocytes"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "cCDs"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "pCDs"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "Antibody-secreting cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "CD4+ aβ T cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "CD2+ yδ T cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "CD2- yδ T cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "CD8aβ+ aβ T cells"
+    },
+    {
+        "Species": "Sus scrofa",
+        "Cell type": "NK cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "retinal stem cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "retinal progenitor"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "cholinergic amacrine"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "photoreceptor"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "retinal ganglion cells"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "alveolar cells"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "stromal cells"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "epithelial cells"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "erythroid cells"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "macrophages"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "goblet cells"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "ciliated cells"
+    },
+    {
+        "Species": "Dipnomorpha",
+        "Cell type": "fibroblasts"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "fibroblasts"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "blastemal mesenchyme"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "oligodendrocytes"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "radial glia"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "cerebrospinal fluid-contacting neurons"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "RB"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "DoLA"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "CoLo"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "v1"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "v2b"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "v2s"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "dl1"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "dl2"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "v2a"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "v0v"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "v0c"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "motor neurons"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "None"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "venous endothelial cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "arterial endothelial cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "hemogenic endothelial cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "hematopoietic stem and progenitor cells"
+    },
+    {
+        "Species": "Danio rerio",
+        "Cell type": "lymphatic endothelial cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "adipocyte cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "endothelial cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "erythroid cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "fibroblasts"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "lymphocytes"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "monocytes"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "myoblasts"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "myocytes"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "myogenic progenitor cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "neutrophils"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "pericyte cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "Schwann cell"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "spermatogonias"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "immune cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "epithelial cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "Th17 cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "NK cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "dendritic cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "plasmacytoids"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "spermatocytes"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "spermatid cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "sertoli cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "endothelial cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "macrophages"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "T-lymphocyte/natural killer cell"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "epithelium differentiation cell"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "papillary fibroblasts"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "reticular fibroblasts"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "dermal papilla"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "epidermal cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "hair follicle stem cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "dividing the fibroblast"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "myofibroblasts"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "CD4 T cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "CD8 T cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "B cells"
+    },
+    {
+        "Species": "Bos taurus",
+        "Cell type": "innate lymphoid cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "oocytes"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "granulosa cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "stromal cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "smooth muscle cells"
+    },
+    {
+        "Species": "Bos grunniens",
+        "Cell type": "epithelial cells"
+    },
+    {
+        "Species": "Oryctolagus cuniculus",
+        "Cell type": "retinal ganglion cells"
+    },
+    {
+        "Species": "Oryctolagus cuniculus",
+        "Cell type": "bipolar cells"
+    },
+    {
+        "Species": "Oryctolagus cuniculus",
+        "Cell type": "rod cells"
+    },
+    {
+        "Species": "Oryctolagus cuniculus",
+        "Cell type": "amacrine cells"
+    },
+    {
+        "Species": "Oryctolagus cuniculus",
+        "Cell type": "Muller glia cells"
+    },
+    {
+        "Species": "Oryctolagus cuniculus",
+        "Cell type": "oligodendrocytes"
+    },
+    {
+        "Species": "Oryctolagus cuniculus",
+        "Cell type": "horizontal cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "spermatid cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "sperm cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "leydig cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "sertoli cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "blood progenitor"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "cardiomyocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "caudal neuroectoderm"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "endothelium"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "erythroid cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "hematoendothelial progenitors"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "dermal papilla"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "inner root sheath"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "hair follicle stem cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "interfollicular epidermis basa"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "interfollicular epidermis super-basa"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "companion layer"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "hair shaft stem cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "immune cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "endothelial cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "dermal sheath"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "dermal fibroblasts"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "basal cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "keratinocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "fibroblasts"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "smooth muscle cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "proliferating cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "lymphocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "T cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "macrophages"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "differentiating keratinocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "terminally differentiated\nkeratinocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "spinous cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "dermal cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "matrix cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "bulge cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "melanocyte cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "primary spermatocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "secondary spermatocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "monocytes"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "dendritic cells"
+    },
+    {
+        "Species": "Ovis aries",
+        "Cell type": "leukocytes"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "ectodermal cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "SOX10+ neural crest"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "endothelial cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "paraxial mesoderm cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "otic placode cells"
+    },
+    {
+        "Species": "Gallus gallus",
+        "Cell type": "cardiac mesoderm cells"
+    }
+]

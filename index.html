@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gene Filter</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f5f5f5;
+        overflow: hidden;
+    }
+    .container {
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+    h1 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+        color: #333;
+    }
+    .search-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .label {
+        width: 100px;
+        padding: 10px;
+        margin-right: 10px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .search-box {
+        width: 98%;
+        flex: 1;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .search-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #ff6a00;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .search-button:hover {
+        background-color: #b33f00b4;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    #results {
+        margin-top: 20px;
+        width: 100%;
+        max-height: 300px; /* Set a max height */
+        overflow-y: auto;  /* Make it scrollable */
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 80%;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        max-height: 200px; /* Limit height to show 5 items */
+        overflow-y: auto;
+        right: 0;
+    }
+    .dropdown-content div {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+    }
+    .dropdown-content div:hover {
+        background-color: #f1f1f1;
+    }
+    .show {
+        display: block;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gene Filter</h1>
+        <div class="search-container">
+            <label for="species" class="label">Species</label>
+            <div class="dropdown">
+                <input type="text" id="species" class="search-box" placeholder="Enter species" onclick="showAllOptions('species', 'Species')" oninput="filterOptions('species', 'Species')" onchange="updateCellTypes()">
+                <div id="speciesDropdown" class="dropdown-content"></div>
+            </div>
+        </div>
+        <div class="search-container">
+            <label for="cell-type" class="label">Cell Type</label>
+            <div class="dropdown">
+                <input type="text" id="cell-type" class="search-box" placeholder="Enter cell type" onclick="showAllOptions('cell-type', 'Cell type', true)" oninput="filterOptions('cell-type', 'Cell type', true)">
+                <div id="cell-typeDropdown" class="dropdown-content"></div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="search-button" onclick="fetchData()">Show Results</button>
+        </div>
+        <div id="results"></div>
+        <div id="loading" style="display: none;">Loading...</div>
+        <div id="error" style="display: none; color: red;">Failed to fetch data.</div>
+    </div>
+    <script>
+        let jsonData = [];
+
+        async function fetchData() {
+            const species = document.getElementById('species').value.trim().toLowerCase();
+            const cellType = document.getElementById('cell-type').value.trim().toLowerCase();
+            try {
+                const response = await fetch('RNA.json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch data.');
+                }
+                jsonData = await response.json();
+                const filteredData = jsonData.filter(item =>
+                    item['Species'].toLowerCase() === species &&
+                    item['Cell type'].toLowerCase() === cellType
+                );
+                displayResults(filteredData);
+            } catch (error) {
+                console.error(error);
+                document.getElementById('error').style.display = 'block';
+            }
+        }
+
+        function displayResults(data) {
+            document.getElementById('results').innerHTML = '';
+
+            if (data.length === 0) {
+                document.getElementById('results').innerHTML = '<p>No results found.</p>';
+                return;
+            }
+
+            let table = document.createElement('table');
+
+            let headerRow = document.createElement('tr');
+            ['Species', 'Cell type', 'Marker genes', 'Article title'].forEach(header => {
+                let th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            table.appendChild(headerRow);
+
+            data.forEach(item => {
+                let row = document.createElement('tr');
+
+                let speciesCell = document.createElement('td');
+                speciesCell.textContent = item['Species'];
+                row.appendChild(speciesCell);
+
+                let cellTypeCell = document.createElement('td');
+                cellTypeCell.textContent = item['Cell type'];
+                row.appendChild(cellTypeCell);
+
+                let markerGenesCell = document.createElement('td');
+                if (item['link'] && item['link'] !== 'None') {
+                    let markerGeneLink = document.createElement('a');
+                    markerGeneLink.href = item['link'];
+                    markerGeneLink.target = '_blank';
+                    markerGeneLink.textContent = item['Marker genes'];
+                    markerGenesCell.appendChild(markerGeneLink);
+                } else {
+                    markerGenesCell.textContent = item['Marker genes'];
+                }
+                row.appendChild(markerGenesCell);
+
+                let articleTitleCell = document.createElement('td');
+                articleTitleCell.textContent = item['Article title'];
+                row.appendChild(articleTitleCell);
+
+                table.appendChild(row);
+            });
+
+            document.getElementById('results').appendChild(table);
+        }
+
+        function filterOptions(inputId, key, filterBySpecies = false) {
+            const input = document.getElementById(inputId);
+            const dropdown = document.getElementById(inputId + 'Dropdown');
+            const value = input.value.trim().toLowerCase();
+
+            dropdown.innerHTML = '';
+
+            if (value === '') {
+                dropdown.classList.remove('show');
+                return;
+            }
+
+            let options;
+            if (filterBySpecies && inputId === 'cell-type') {
+                const species = document.getElementById('species').value.trim().toLowerCase();
+                options = new Set(jsonData.filter(item => item['Species'].toLowerCase() === species).map(item => item[key]));
+            } else {
+                options = new Set(jsonData.map(item => item[key]));
+            }
+
+            const filteredOptions = Array.from(options).filter(option => option.toLowerCase().includes(value));
+
+            filteredOptions.forEach(option => {
+                const optionDiv = document.createElement('div');
+                optionDiv.textContent = option;
+                optionDiv.onclick = () => {
+                    input.value = option;
+                    dropdown.classList.remove('show');
+                };
+                dropdown.appendChild(optionDiv);
+            });
+
+            dropdown.classList.add('show');
+        }
+
+        function showAllOptions(inputId, key, filterBySpecies = false) {
+            // Close the other dropdown
+            if (inputId === 'species') {
+                document.getElementById('cell-typeDropdown').classList.remove('show');
+            } else if (inputId === 'cell-type') {
+                document.getElementById('speciesDropdown').classList.remove('show');
+            }
+
+            const input = document.getElementById(inputId);
+            const dropdown = document.getElementById(inputId + 'Dropdown');
+
+            dropdown.innerHTML = '';
+
+            let options;
+            if (filterBySpecies && inputId === 'cell-type') {
+                const species = document.getElementById('species').value.trim().toLowerCase();
+                options = new Set(jsonData.filter(item => item['Species'].toLowerCase() === species).map(item => item[key]));
+            } else {
+                options = new Set(jsonData.map(item => item[key]));
+            }
+
+            options.forEach(option => {
+                const optionDiv = document.createElement('div');
+                optionDiv.textContent = option;
+                optionDiv.onclick = () => {
+                    input.value = option;
+                    dropdown.classList.remove('show');
+                };
+                dropdown.appendChild(optionDiv);
+            });
+
+            dropdown.classList.add('show');
+        }
+
+        function updateCellTypes() {
+            const cellTypeInput = document.getElementById('cell-type');
+            const cellTypeDropdown = document.getElementById('cell-typeDropdown');
+            cellTypeInput.value = '';
+            cellTypeDropdown.innerHTML = '';
+        }
+
+        async function loadData() {
+            try {
+                const response = await fetch('RNA-select.json'); 
+                if (!response.ok) {
+                    throw new Error('Failed to fetch data.');
+                }
+                jsonData = await response.json();
+            } catch (error) {
+                console.error(error);
+                document.getElementById('error').style.display = 'block';
+            }
+        }
+
+        window.onload = loadData;
+
+        document.addEventListener('click', function(event) {
+            const speciesDropdown = document.getElementById('speciesDropdown');
+            const cellTypeDropdown = document.getElementById('cell-typeDropdown');
+            const speciesInput = document.getElementById('species');
+            const cellTypeInput = document.getElementById('cell-type');
+
+            if (!speciesInput.contains(event.target) && !speciesDropdown.contains(event.target)) {
+                speciesDropdown.classList.remove('show');
+            }
+
+            if (!cellTypeInput.contains(event.target) && !cellTypeDropdown.contains(event.target)) {
+                cellTypeDropdown.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>
